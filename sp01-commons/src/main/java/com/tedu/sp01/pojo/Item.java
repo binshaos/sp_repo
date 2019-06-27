@@ -8,8 +8,9 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Item {
-	
+	//商品id
 	private Integer id;
+	//商品名称
 	private String name;
 	private Integer number;
 
